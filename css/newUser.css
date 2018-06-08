@@ -1,0 +1,38 @@
+*{margin:0;padding:0;}
+p{padding:1vw 0;}
+@font-face {
+    font-family:"hbb2";
+    src:url("font/hbb.ttf");
+}
+html,body{
+    font-size: 4.5vw;
+    font-color:#636363;
+    overflow-x: hidden;
+    overflow-y:auto;
+    font-family:"hbb2";
+}
+.introduce{
+    width: 100%;
+    padding: 5vw;
+}
+.introduce2{
+    width: 100%;
+    padding:3vw  5vw;
+	margin-top:-1vw;
+}
+img{
+    width: 100%;
+}
+.newUser-qr {
+    width: 40%;
+    margin: 0 auto;
+    display:block;
+    margin-top: 5vw;
+}
+.bottom{
+    text-align: center;
+    padding:3vw 0 20vw 0;
+}
+.small-size{
+    font-size: 3.5vw;
+}

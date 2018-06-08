@@ -1,0 +1,534 @@
+/*css reset*/
+*{margin:0;padding: 0;}
+a{text-decoration: none}
+ul,li{list-style: none}
+html,body{
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+    position: relative;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    top:0; left:0; bottom:0; right:0
+}
+
+.bask{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow-x: hidden;
+    /*top:-150vw;*/
+}
+.bask-bg{
+    background: url("../img/bj.jpg") no-repeat;
+    background-size:100%;
+    width:100%;
+    height:540vw;
+}
+
+.switch{
+    width: 10vw;
+    height:10vw;
+    display: inline-block;
+    border-radius: 50%;
+    position: fixed;
+    top:5vw;
+    right:5vw;
+    overflow: hidden;
+    z-index: 999;
+}
+.switch img{
+    width:100%;
+}
+.to-top-box{
+    position: absolute;
+    top:510vw;
+    right:5vw;
+    z-index: 999;
+    display: inline-block;
+}
+.to-top-icon{
+    width: 11vw;
+    height:11vw;
+    display:block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.to-top-icon img{
+    width: 100%;
+}
+.to-top-txt{
+    margin-top:3vw;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.music{
+    display: none;
+}
+
+.header{
+    width: 100%;
+    height:50vw;
+    text-align: center;
+    margin:0 auto;
+}
+.header .headimg-circle{
+    display: inline-block;
+    width: 15vw;
+    height:15vw;
+    border: 3px solid #f26257;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:0 auto;
+    margin-top:5vw;
+}
+.header .headimg-circle > img{
+    width: 100%;
+}
+.header p{
+    font-family: "微软雅黑 Light";
+    font-size: 4vw;
+    color: #000;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    display: inline-block;
+    clip-path: inset(0px 240px 0px 0px);
+}
+.txt-wipe1-span{
+    color:#f26257;
+}
+
+.start{
+    width: 100%;
+    height:50vw;
+    position: relative;
+    z-index: 200;
+}
+.start .start-box{
+    width: 84%;
+    height:50vw;
+    margin:0 auto;
+}
+.start .start-box img{
+    float: left;
+    display: inline-block;
+    width: 25vw;
+}
+.start .start-box img:nth-child(1){
+    width: 30vw;
+    position: relative;
+    top:2vw;
+    left:9vw;
+}
+
+.animation-data .animation-box{
+    background: url("../img/ripples.png") no-repeat;
+    background-size: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.animation-data .animation-box .animation-headimg-box{
+    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.animation-data .animation-box .animation-headimg-box .animation-img{
+    text-align: center;
+}
+.red{
+    color: red;
+}
+
+
+.first-txt{
+    display: inline-block;
+    position:absolute;
+    top:116vw;
+    left:46vw;
+}
+.second-txt{
+    display: inline-block;
+    position:absolute;
+    top:160vw;
+    left:46vw;
+}
+.fourth-txt{
+    display: inline-block;
+    position:absolute;
+    top:270vw;
+    left:20vw;
+    text-align: right;
+}
+.fourth-txt2{
+    display: inline-block;
+    position:absolute;
+    top:289vw;
+    left:2vw;
+    text-align: right;
+    font-family: "Adobe 仿宋 Std R";
+    z-index:100;
+}
+.fifth-txt{
+    display: inline-block;
+    position:absolute;
+    top:355vw;
+    left:55vw;
+}
+.fifth-txt2{
+    display: inline-block;
+    position:absolute;
+    top:362vw;
+    left:40vw;
+}
+
+.sixth-txt{
+    display: inline-block;
+    position:absolute;
+    top:455vw;
+    left:45vw;
+}
+.seventh-txt{
+    display: inline-block;
+    position:absolute;
+    top:490vw;
+    left:30vw;
+}
+
+
+/*第一个动画*/
+.first-data{
+    width: 40vw;
+    height:40vw;
+    position: absolute;
+    top:108vw;
+    left:20vw;
+    z-index: 200;
+}
+.first-data .first-box{
+    width: 30vw;
+    height:30vw;
+}
+.first-data .first-box .first-headimg-box{
+    background: url("../img/headbox.png") no-repeat;
+    background-size: 100%;
+    width:16vw;
+    height:25vw;
+    position: relative;
+    left:7vw;
+}
+.first-data .first-box .first-headimg-box .first-img{
+    width:76%;
+    position: relative;
+    top:1vw;
+}
+
+/*第二个动画*/
+.second-data{
+    width: 40vw;
+    height:40vw;
+    position: absolute;
+    top:154vw;
+    left:20vw;
+    z-index: 200;
+}
+.second-data .second-box{
+    width:30vw;
+    height:30vw;
+}
+.second-data .second-box .second-headimg-box{
+    background: #f26257;
+    border-radius: 50%;
+    width:10vw;
+    height:10vw;
+    position: relative;
+    left:10vw;
+}
+
+/*第三个动画*/
+/*.three-ul{*/
+/*width: 100%;*/
+/*overflow: hidden;*/
+/*}*/
+/*.three-data1{*/
+/*width: 30vw;*/
+/*height:30vw;*/
+/*position: absolute;*/
+/*top:205vw;*/
+/*left:30vw;*/
+/*}*/
+/*.three-data2{*/
+/*width: 30vw;*/
+/*height:30vw;*/
+/*position: absolute;*/
+/*top:224vw;*/
+/*left:48vw;*/
+/*z-index: 100;*/
+/*}*/
+/*.three-data3{*/
+/*width: 30vw;*/
+/*height:30vw;*/
+/*position: absolute;*/
+/*top:224vw;*/
+/*left:10vw;*/
+/*}*/
+/*.three-data4{*/
+/*width: 30vw;*/
+/*height:30vw;*/
+/*position: absolute;*/
+/*top:205vw;*/
+/*left:75vw;*/
+/*}*/
+/*.three-data5{*/
+/*width: 30vw;*/
+/*height:30vw;*/
+/*position: absolute;*/
+/*top:190vw;*/
+/*left:2vw;*/
+/*}*/
+/*.three-data6{*/
+/*width: 30vw;*/
+/*height:30vw;*/
+/*position: absolute;*/
+/*top:190vw;*/
+/*left:52vw;*/
+/*}*/
+/*.three-box{*/
+/*width: 20vw;*/
+/*height:20vw;*/
+/*}*/
+/*.three-img{*/
+/*width: 12.5vw;*/
+/*height:12.5vw;*/
+/*border-radius: 50%;*/
+/*}*/
+
+.three-ul{
+    width: 100%;
+    overflow: hidden;
+}
+.three-data1{
+    width: 35vw;
+    height:35vw;
+    position: absolute;
+    top:205vw;
+    left:30vw;
+    z-index: 100;
+}
+.three-data2{
+    width: 35vw;
+    height:35vw;
+    position: absolute;
+    top:224vw;
+    left:48vw;
+    z-index: 100;
+}
+.three-data3{
+    width: 35vw;
+    height:35vw;
+    position: absolute;
+    top:224vw;
+    left:10vw;
+    z-index: 100;
+}
+.three-data4{
+    width: 35vw;
+    height:35vw;
+    position: absolute;
+    top:205vw;
+    left:75vw;
+    z-index: 100;
+}
+.three-data5{
+    width: 35vw;
+    height:35vw;
+    position: absolute;
+    top:190vw;
+    left:2vw;
+    z-index: 100;
+}
+.three-data6{
+    width: 35vw;
+    height:35vw;
+    position: absolute;
+    top:190vw;
+    left:52vw;
+    z-index: 100;
+}
+.three-box{
+    width: 23.3vw;
+    height:23.3vw;
+}
+.three-img{
+    width: 14.6vw;
+    height:14.6vw;
+    border-radius: 50%;
+}
+
+/*第四个动画*/
+.fourth-data{
+    width: 40vw;
+    height:40vw;
+    position: absolute;
+    top:260vw;
+    left:50vw;
+}
+.fourth-box{
+    width:30vw;
+    height:30vw;
+}
+.fourth-headimg-box{
+    background: #ffb900;
+    border-radius: 50%;
+    width:10vw;
+    height:10vw;
+    position: relative;
+    left:10vw;
+}
+
+/*第五个动画*/
+.fifth-data{
+    width: 40vw;
+    height:40vw;
+    position: absolute;
+    top:340vw;
+    left:30vw;
+}
+.fifth-box{
+    width:30vw;
+    height:30vw;
+}
+.fifth-headimg-box{
+    background: #7d86c7;
+    border-radius: 50%;
+    width:10vw;
+    height:10vw;
+    position: relative;
+    left:10vw;
+}
+
+/*animation txt*/
+.ability-ul{
+    width: 100%;
+    height:40vw;
+    position: absolute;
+    top:0vw;
+}
+.animation-txt{
+    display: inline-block;
+    width:24vw;
+    height:10vw;
+    line-height:10vw;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    z-index: 100;
+}
+.animation-txt1{
+    position: absolute;
+    top:380vw;
+    right:7vw;
+    background:#c490c0;
+}
+.animation-txt2{
+    position: absolute;
+    top:390vw;
+    left:24vw;
+    background:#eb6876;
+}
+.animation-txt3{
+    position: absolute;
+    top:375vw;
+    left:38vw;
+    background:#7d86c8;
+}
+.animation-txt4{
+    position: absolute;
+    top:375vw;
+    left:7vw;
+    background:#4489ca;
+}
+.animation-txt5{
+    position: absolute;
+    top:395vw;
+    left:55vw;
+    background:#f18e64;
+}
+
+
+/*第六个动画*/
+.sixth-data{
+    width: 40vw;
+    height:40vw;
+    position: absolute;
+    top:440vw;
+    left:20vw;
+}
+.sixth-box{
+    width:30vw;
+    height:30vw;
+}
+.sixth-data .sixth-box .sixth-headimg-box{
+    background: #8fc320;
+    border-radius: 50%;
+    width:10vw;
+    height:10vw;
+    position: relative;
+    left:10vw;
+}
+
+.greenearth{
+    display: inline-block;
+    background: url("../img/greenearth.png") no-repeat;
+    background-size: 100%;
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    top:435vw;
+    left:50vw;
+}
+.sharing{
+    width: 20vw;
+    height:10vw;
+    overflow: hidden;
+    position: absolute;
+    top:510vw;
+    left:40vw;
+
+}
+.sharing img{
+    width: 100%;
+}
+.hint{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 200;
+    display: none;
+}
+.hint img{
+    width:70vw;
+    position:absolute;
+    right:5vw;
+    top:2vw;
+}
+.pig{
+    position: absolute;
+    top: 275vw;
+    left: 20vw;
+    text-align: right;
+    width: 30vw;
+}

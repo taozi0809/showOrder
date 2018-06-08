@@ -1,0 +1,247 @@
+.line{
+    height:2px;
+    background:#dcdcdc;
+    border-radius: 5px;
+    -moz-transform-origin: 0% 0%;
+    -webkit-transform-origin:0% 0%;
+    -o-transform-origin:0% 0%;
+    transform-origin:0% 0%;
+}
+
+@keyframes lineExtension1 {
+    from {
+        width:0;
+    }
+    to {
+        width:45vw;
+    }
+}
+@-webkit-keyframes lineExtension1 /*Safari and Chrome*/  {
+    from {
+        width:0%;
+    }
+    to {
+        width:45vw;
+    }
+}
+.line1{
+    position: absolute;
+    z-index: 0;
+    top:75vw;
+    left:55vw;
+    width:45vw;
+    -webkit-transform:rotate(115deg);
+    -moz-transform:rotate(115deg);
+    -o-transform:rotate(115deg);
+    transform:rotate(115deg);
+    animation:lineExtension1 2s forwards;
+    -webkit-animation:lineExtension1 2s forwards; /* Safari 和 Chrome */
+    -moz-animation:lineExtension1 2s forwards;
+    -o-animation:lineExtension1 2s forwards;
+}
+
+@keyframes lineExtension2 {
+    from {
+        width:0;
+    }
+    to {
+        width:35vw;
+    }
+}
+@-webkit-keyframes lineExtension2 /*Safari and Chrome*/  {
+    from {
+        width:0%;
+    }
+    to {
+        width:35vw;
+    }
+}
+.line2{
+    position: absolute;
+    z-index: 0;
+    top:130vw;
+    left:35vw;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    transform:rotate(90deg);
+    animation:lineExtension2 2s forwards;
+    -webkit-animation:lineExtension2 2s forwards; /* Safari 和 Chrome */
+    -moz-animation:lineExtension2 2s forwards;
+    -o-animation:lineExtension2 2s forwards;
+}
+
+@keyframes lineExtension3 {
+    from {
+        width:0;
+    }
+    to {
+        width:40vw;
+    }
+}
+@-webkit-keyframes lineExtension3 /*Safari and Chrome*/  {
+    from {
+        width:0%;
+    }
+    to {
+        width:40vw;
+    }
+}
+.line3{
+    position: absolute;
+    top:174vw;
+    left:36vw;
+    z-index: 0;
+    -webkit-transform:rotate(80deg);
+    -moz-transform:rotate(80deg);
+    -o-transform:rotate(80deg);
+    transform:rotate(80deg);
+    animation:lineExtension3 2s forwards;
+    -webkit-animation:lineExtension3 2s forwards; /* Safari 和 Chrome */
+    -moz-animation:lineExtension3 2s forwards;
+    -o-animation:lineExtension3 2s forwards;
+}
+
+@keyframes lineExtension4 {
+    from {
+        width:0;
+    }
+    to {
+        width:56vw;
+    }
+}
+@-webkit-keyframes lineExtension4 /*Safari and Chrome*/  {
+    from {
+        width:0%;
+    }
+    to {
+        width:56vw;
+    }
+}
+.line4{
+    position: absolute;
+    top:220vw;
+    left:43vw;
+    z-index: 0;
+    -webkit-transform:rotate(68deg);
+    -moz-transform:rotate(68deg);
+    -o-transform:rotate(68deg);
+    transform:rotate(68deg);
+    animation:lineExtension4 2s forwards;
+    -webkit-animation:lineExtension4 2s forwards; /* Safari 和 Chrome */
+    -moz-animation:lineExtension4 2s forwards;
+    -o-animation:lineExtension4 2s forwards;
+}
+
+@keyframes lineExtension5 {
+    from {
+        width:0;
+    }
+    to {
+        width:74vw;
+    }
+}
+@-webkit-keyframes lineExtension5 /*Safari and Chrome*/  {
+    from {
+        width:0%;
+    }
+    to {
+        width:74vw;
+    }
+}
+.line5{
+    position: absolute;
+    top:280vw;
+    left:65vw;
+    z-index: 0;
+    -webkit-transform:rotate(105deg);
+    -moz-transform:rotate(105deg);
+    -o-transform:rotate(105deg);
+    transform:rotate(105deg);
+    animation:lineExtension5 2s forwards;
+    -webkit-animation:lineExtension5 2s forwards; /* Safari 和 Chrome */
+    -moz-animation:lineExtension5 2s forwards;
+    -o-animation:lineExtension5 2s forwards;
+}
+
+@keyframes lineExtension6 {
+    from {
+        width:0;
+    }
+    to {
+        width:92vw;
+    }
+}
+@-webkit-keyframes lineExtension6 /*Safari and Chrome*/  {
+    from {
+        width:0%;
+    }
+    to {
+        width:92vw;
+    }
+}
+.line6{
+    position: absolute;
+    top:360vw;
+    left:45vw;
+    z-index: 0;
+    -webkit-transform:rotate(95deg);
+    -moz-transform:rotate(95deg);
+    -o-transform:rotate(95deg);
+    transform:rotate(95deg);
+    animation:lineExtension6 2s forwards;
+    -webkit-animation:lineExtension6 2s forwards; /* Safari 和 Chrome */
+    -moz-animation:lineExtension6 2s forwards;
+    -o-animation:lineExtension6 2s forwards;
+}
+
+
+
+@-webkit-keyframes heightMove {
+    0% {
+        height: 0;
+        width: 0;
+    }
+    100% {
+        width: 40vw;
+        height: 80vw;
+    }
+}
+@keyframes heightMove {
+    0%{
+        height:0;
+        width: 0;
+    }
+    100%{
+        width: 40vw;
+        height:80vw;
+    }
+}
+
+.g-line7{
+    position: absolute;
+    top:460vw;
+    left:35vw;
+    height:80vw;
+    width:40vw;
+    -webkit-animation: heightMove 2s linear forwards;
+    -moz-animation:heightMove 2s linear forwards;
+    -ms-animation:heightMove 2s linear forwards;
+    -o-animation:heightMove 2s linear forwards;
+    animation: heightMove 2s linear forwards;
+
+}
+.g-rect-fill7{
+    fill: none;
+    stroke-width:2;
+    stroke:#dcdcdc;
+    stroke-linejoin:round;
+    stroke-linecap:round;
+    stroke-dasharray:15;
+    stroke-dashoffset:13;
+    /*-webkit-animation: lineMove 10s linear forwards;*/
+    /*-moz-animation:lineMove 10s linear forwards;*/
+    /*-ms-animation:lineMove 10s linear forwards;*/
+    /*-o-animation:lineMove 10s linear forwards;*/
+    /*animation: dasharrayMove 10s linear forwards;*/
+}
